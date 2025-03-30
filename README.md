@@ -1,4 +1,4 @@
-# Protobuf
+# Proto Buffer
 
 ```bash
 # Install protobuf
@@ -8,15 +8,15 @@ apt install protobuf-compiler
 protoc --version
 ```
 
-```bash
-# for python
+# Python
 
+```bash
 python -m venv .env
 source .env/bin/activate
 
 pip install protobuf
 
-# to protobuff
+# to ProtoBuf
 protoc --python_out=. FILENAME.proto
 ```
 
