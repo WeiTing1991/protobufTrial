@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message Address {
+  string street = 1;
+  string city = 2;
+}
+
+message Detail {
+  int32 id = 1;
+  string name = 2;
+}
+
+// Main User message
+message User {
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+  bool active = 4;
+  Address address = 5;
+  Detail detail = 6;
+}
